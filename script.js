@@ -32,7 +32,7 @@ if (sum % 2 == 0) {
   alert(`A soma dos dois números é ímpar.`);
 }
 
-if (num1 == num2) {
+if (firstNumber == secondNumber) {
   alert(`Os dois número inseridos são iguais.`);
 } else {
   alert(`Os dois número inseridos são diferentes.`);
