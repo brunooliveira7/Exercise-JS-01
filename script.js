@@ -11,14 +11,14 @@ Solicitar ao usuário que ele insira **dois números** e, a partir daí, calcula
 
 let firstNumber = prompt("Digite o primeiro número:");
 let secondNumber = prompt("Digite o segundo número:");
-let num1 = Number(firstNumber);
-let num2 = Number(secondNumber);
+firstNumber = Number(firstNumber)
+secondNumber = Number(secondNumber)
 
-let sum = num1 + num2;
-let sub = num1 - num2;
-let mult = num1 * num2;
-let div = (num1 / num2).toFixed(2);
-let rDiv = num1 % num2;
+let sum = firstNumber + secondNumber;
+let sub = firstNumber - secondNumber;
+let mult = firstNumber * secondNumber;
+let div = (firstNumber / secondNumber).toFixed(2);
+let rDiv = firstNumber % secondNumber;
 
 alert(`A soma dos dois números é: ${sum}.`);
 alert(`A subtração dos dois números é: ${sub}.`);
