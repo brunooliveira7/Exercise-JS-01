@@ -11,8 +11,8 @@ Solicitar ao usuário que ele insira **dois números** e, a partir daí, calcula
 
 let firstNumber = prompt("Digite o primeiro número:");
 let secondNumber = prompt("Digite o segundo número:");
-firstNumber = Number(firstNumber)
-secondNumber = Number(secondNumber)
+firstNumber = Number(firstNumber);
+secondNumber = Number(secondNumber);
 
 let sum = firstNumber + secondNumber;
 let sub = firstNumber - secondNumber;
